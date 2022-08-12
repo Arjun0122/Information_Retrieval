@@ -1,0 +1,53 @@
+body{
+  margin: 0px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(43, 109, 195);
+  height: 140px;
+
+  
+}
+.title{
+  font-size: 54px;
+  margin-block-start: unset;
+  margin-block-end: initial;
+}
+form{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height: 30px;
+}
+input{
+  width: 50%;
+
+}
+button{
+  height: 100%;
+}
+.totalresult{
+  font-weight: bold;
+  margin-block-start: 3px;
+  padding: 12px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.publication-text{
+  margin-block-start: 7px;
+}
+.similarity{
+  margin-block-start: 10px;
+  font-weight: bolder;
+}
+.Authors{
+  font-weight: bolder;
+}
+.publication-date{
+  font-weight: bolder;
+}
+.Abstract{
+  font-weight: bolder;
+}
